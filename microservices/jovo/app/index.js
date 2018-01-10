@@ -12,6 +12,10 @@ webhook.listen(3000, function() {
     console.log('Local development server listening on port 3000.');
 });
 
+webhook.get('/test', function(req, res) {
+    res.send ("Jovo service is running");
+})
+
 webhook.post('/webhook', function(req, res) {
     app.handleRequest(req, res, handlers);
     app.execute();
