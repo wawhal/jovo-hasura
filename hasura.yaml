@@ -1,5 +1,6 @@
-description: Blank template for a Hasura project
-keywords: base, getting-started
+description: A starter project to deploy Jovo applications with SSL certificates.
+keywords: jovo, bot, chatbot, webhook, alexa, google assistant
 media: {}
-name: base
+gitUrl: https://github.com/wawhal/jovo-hasura
+name: jovo-hasura
 platformVersion: v0.15.3
